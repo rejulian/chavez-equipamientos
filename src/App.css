@@ -79,4 +79,8 @@
     #contacto iframe{
         width: 100% !important;
     }
+
+    .banner-home{
+        font-size: 15px;
+    }
 }

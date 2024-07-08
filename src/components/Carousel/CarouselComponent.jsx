@@ -11,7 +11,7 @@ function CarouselComponent() {
           <img src={Logo} alt="Chavez Equipamientos" />
         </div>
         <Carousel.Caption>
-          <h2>Elementos de proteccion de calidad</h2>
+          <h2>Elementos de proteccion</h2>
           <Link className='btn btn-warning' to="/productos">Ver Productos</Link>
         </Carousel.Caption>
       </Carousel.Item>
