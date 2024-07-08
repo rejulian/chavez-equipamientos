@@ -1,5 +1,5 @@
 import Carousel from 'react-bootstrap/Carousel';
-import Logo from '../../assets/logo-chavez-light.svg'
+import Logo from '../../assets/logo-chavez.svg'
 import { Link } from 'react-router-dom';
 import './Carousel.css'
 
