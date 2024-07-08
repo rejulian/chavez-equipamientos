@@ -83,4 +83,8 @@
     .banner-home{
         font-size: 15px;
     }
+
+    .banner-home-img{
+        width: 100%;
+    }
 }
