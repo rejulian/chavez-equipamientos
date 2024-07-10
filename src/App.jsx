@@ -1,5 +1,5 @@
 
-import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import { BrowserRouter, Route, Routes, useLocation } from 'react-router-dom'
 import './App.css'
 import Home from './pages/Home'
 import NavbarComponent from './components/NavbarComponent'
@@ -11,7 +11,7 @@ function App() {
   return (
     <>
       <BrowserRouter>
-        <NavbarComponent />
+        <NavbarComponentWrapper/>
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/anclajesujecioncarga' element={<Anclaje />} />
@@ -20,6 +20,15 @@ function App() {
       </BrowserRouter>
     </>
   )
+}
+
+function NavbarComponentWrapper() {
+  const location = useLocation();
+
+  // Aquí puedes agregar todas las rutas en las que no quieras mostrar el NavbarComponent
+  const hideNavbarRoutes = ['/anclajesujecioncarga'];
+
+  return !hideNavbarRoutes.includes(location.pathname) ? <NavbarComponent /> : null;
 }
 
 export default App
