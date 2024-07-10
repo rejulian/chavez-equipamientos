@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+main{
+    min-height: calc(100vh - 166px );
+}
+
 #card-service{
     display: flex;
     flex-wrap: wrap;
@@ -64,6 +68,19 @@
     padding: 10px 0 30px 0;
     justify-content: space-around;
     align-items: center;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffc107;
+    height: 50px;
+}
+
+footer p{
+    margin: 0;
+    padding: 0
 }
 
 @media(max-width: 654px){

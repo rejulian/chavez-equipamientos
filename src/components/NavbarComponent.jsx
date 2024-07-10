@@ -13,10 +13,10 @@ function NavbarComponent() {
             <Navbar bg="light" data-bs-theme="light">
                 <Container>
                     <Nav className="me-auto flex">
-                        <img src={logo} alt="Logo Chavez" style={{width:"100px"}}/>
+                        <img src={logo} alt="Logo Chavez" style={{width:"110px"}}/>
                     </Nav>
                     <Nav.Link className='nav-link' as={Link} to='/'>Inicio</Nav.Link>
-                    <Nav.Link className='nav-link' as={Link} to='/productos'>Productos</Nav.Link>
+                    <Nav.Link className='nav-link' as={Link} to='/anclajesujecioncarga'>Anclaje</Nav.Link>
                 </Container>
             </Navbar>
         </>
