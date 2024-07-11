@@ -11,7 +11,7 @@ const CardComponent = ({ title, src }) => {
         <CardTitle>{title}</CardTitle>
       </CardBody>
       <CardFooter>
-        <Link className='btn btn-warning link'>Consultar</Link>
+        <Link className='btn btn-warning link' to={`https://wa.me/5493364581329/?text=Me gustaria recibir mas informacion sobre: ${title}`}>Consultar</Link>
       </CardFooter>
     </Card>
   )
