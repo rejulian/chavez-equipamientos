@@ -17,15 +17,11 @@ import Advertencias from '../../assets/anclaje/advertencias.png'
 import Fibra1 from '../../assets/anclaje/fibra1.png'
 import Fibra2 from '../../assets/anclaje/fibra2.png'
 import Cadenas1 from '../../assets/anclaje/cadenas1.png'
-import Logo from '../../assets/logo-chavez.svg'
 import './Anclaje.css'
 
 const Anclaje = () => {
   return (
     <>
-      <header id='header'>
-        <img src={Logo} alt="" />
-      </header>
       <main id='anclaje'>
         <h1>Anclaje, sujeción y carga</h1>
         <section className='container'>

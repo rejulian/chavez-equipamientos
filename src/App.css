@@ -4,6 +4,17 @@
     box-sizing: border-box;
 }
 
+#header{
+    text-align: center;
+    background-color: #757575;
+    margin-bottom: 20px;
+}
+
+#header img{
+    width: 200px;
+    height: 200px;
+}
+
 main{
     min-height: calc(100vh - 166px );
 }

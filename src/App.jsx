@@ -5,6 +5,8 @@ import Home from './pages/Home'
 import NavbarComponent from './components/NavbarComponent'
 import Footer from './components/Footer/Footer'
 import Anclaje from './pages/Anclaje/Anclaje'
+import Header from './components/Header/Header'
+import Seguridad from './pages/Seguridad/Seguridad'
 
 function App() {
 
@@ -15,6 +17,7 @@ function App() {
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/anclajesujecioncarga' element={<Anclaje />} />
+          <Route path='/seguridad' element={<Seguridad />} />
         </Routes>
         <Footer/>
       </BrowserRouter>
@@ -26,9 +29,9 @@ function NavbarComponentWrapper() {
   const location = useLocation();
 
   // Aquí puedes agregar todas las rutas en las que no quieras mostrar el NavbarComponent
-  const hideNavbarRoutes = ['/anclajesujecioncarga'];
+  const hideNavbarRoutes = ['/anclajesujecioncarga', '/seguridad'];
 
-  return !hideNavbarRoutes.includes(location.pathname) ? <NavbarComponent /> : null;
+  return !hideNavbarRoutes.includes(location.pathname) ? <NavbarComponent /> : <Header/>;
 }
 
 export default App
