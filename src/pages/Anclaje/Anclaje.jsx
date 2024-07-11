@@ -11,6 +11,9 @@ import Eslingas2 from '../../assets/anclaje/eslingas2.png'
 import Petroleo1 from '../../assets/anclaje/petroleo1.png'
 import Petroleo2 from '../../assets/anclaje/petroleo2.png'
 import Petroleo3 from '../../assets/anclaje/petroleo3.png'
+import Grilletes from '../../assets/anclaje/grilletes.png'
+import Accesorios from '../../assets/anclaje/accesorios.png'
+import Advertencias from '../../assets/anclaje/advertencias.png'
 import Logo from '../../assets/logo-chavez.svg'
 import './Anclaje.css'
 
@@ -60,6 +63,46 @@ const Anclaje = () => {
             <img className='cable-especial' src={Petroleo1} alt="Cola de cadena para camiones petroleros" />
             <img className='cable-especial' src={Petroleo2} alt="Terminales para cable" />
             <img className='cable-especial' src={Petroleo3} alt="Eslingas TPR" />
+          </div>
+        </section>
+        <section className='container'>
+          <h2 className='title'>Grilletes</h2>
+          <p>El uso de grilletes es amplio, pueden ser utilizados en maniobras de izaje, sujecion de carga, estructuras fijas asociados a cables de acero, cadenas, eslingas y otros terminales. Los grilletes de tipo corazon, por su forma, se pueden utilizar con uno o varios ramales. Grilletes con tuerca y chaveta (4 piezas) se recomiendan para trabajos de tiempo prolongado, su traba asegura que el perno permanezca siempre en posicion correcta. Las lineas de grilletes que ofrecemos al mercado se encuentran fabricados bajo norma y se puede entregar sin ningun costo extra certificado de calidad.</p>
+          <div>
+            <img className='cable-especial' src={Grilletes} alt="Grilletes" />
+          </div>
+        </section>
+        <section className='container'>
+          <h2 className='title'>Accesorios de alta resistencia</h2>
+          <p>Pueden ser utilizados en maniobras de izaje y sujecion en conjunto con cadenas, eslingas de fibra y cables de acero. Segun el requerimiento del usuario y advirtiendo los riesgos de uso.</p>
+          <div>
+          <ol>
+            <li>Eslabon maestro</li>
+            <li>Eslabon con sub ensambles</li>
+            <li>Eslabon de conexion</li>
+            <li>Eslabon de conexion para eslingas</li>
+            <li>Grillete</li>
+            <li>Gancho ojo de fundicion</li>
+            <li>Acortacadenas con traba de seguridad</li>
+            <li>Acortacadenas</li>
+            <li>Gancho horquilla con traba de seguridad</li>
+            <li>Gancho ojo con traba de seguridad</li>
+            <li>Gancho ojo con cierre automatico</li>
+            <li>Gancho horquilla con cierre automatico</li>
+          </ol>
+            <img className='cable-especial' src={Accesorios} alt="Accesorios de alta resistencia" />
+          </div>
+          <h3>Para la configuracion del conjunto, considerar las siguientes cuestiones:</h3>
+          <ul>
+            <li>CMT y angulo de trabajo</li>
+            <li>Medidas internas del eslabon maestro</li>
+            <li>Terminacion (Grillete, Gancho, Eslabon, libre).</li>
+            <li>Ramal a utilizar (Cadena, Cable de acero o eslinga).</li>
+            <li>Los conjuntos se pueden armar de distintas formas y asociando varios articulos de 1 hasta 4 ramales.</li>
+            <li>Algunos accesorios son aptos solo para cadena. Ej: Los terminados en tipo horquilla</li>
+          </ul>
+          <div>
+            <img className='cable-especial' src={Advertencias} alt="Advertencias" />
           </div>
         </section>
       </main>
