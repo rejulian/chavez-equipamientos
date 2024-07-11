@@ -3,7 +3,7 @@ import React from 'react'
 const Footer = () => {
   return (
     <footer>
-        <p>Powered by Tucode. Cel: 03364631393 - 03364537093</p>
+        <p>Contactanos. Cel: 03364581329 - 03364511862</p>
     </footer>
   )
 }

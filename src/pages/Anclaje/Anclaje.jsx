@@ -18,12 +18,14 @@ import Fibra1 from '../../assets/anclaje/fibra1.png'
 import Fibra2 from '../../assets/anclaje/fibra2.png'
 import Cadenas1 from '../../assets/anclaje/cadenas1.png'
 import './Anclaje.css'
+import { Link } from 'react-router-dom'
 
 const Anclaje = () => {
   return (
     <>
       <main id='anclaje'>
         <h1>Anclaje, sujeción y carga</h1>
+        <Link className='btn btn-warning link' to={`https://wa.me/5493364581329/?text=Hola, vengo de la pagina web sobre anclaje, sujecion y carga.`}>Contactanos</Link>
         <section className='container'>
           <h2 className='title'>Cables de acero</h2>
           <p>Comercializamos una completa linea de cables de acero, utilizados por distintos sectores productivos; (industrial, maritimo, minero, petrolero, etc.) satisfaciendo los mas exigentes estandares de calidad.</p>
