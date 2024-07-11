@@ -55,12 +55,6 @@ const Anclaje = () => {
           </div>
         </section>
         <section className='container'>
-          <h2 className='title'>Terminales / Sockets para eslingas</h2>
-          <div>
-            <img className='cable-especial' src={Terminales} alt="Terminales para eslingas" />
-          </div>
-        </section>
-        <section className='container'>
           <h2 className='title'>Accesorios de uso petroleo</h2>
           <div>
             <img className='cable-especial' src={Petroleo1} alt="Cola de cadena para camiones petroleros" />
