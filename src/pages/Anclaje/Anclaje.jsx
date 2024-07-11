@@ -14,6 +14,9 @@ import Petroleo3 from '../../assets/anclaje/petroleo3.png'
 import Grilletes from '../../assets/anclaje/grilletes.png'
 import Accesorios from '../../assets/anclaje/accesorios.png'
 import Advertencias from '../../assets/anclaje/advertencias.png'
+import Fibra1 from '../../assets/anclaje/fibra1.png'
+import Fibra2 from '../../assets/anclaje/fibra2.png'
+import Cadenas1 from '../../assets/anclaje/cadenas1.png'
 import Logo from '../../assets/logo-chavez.svg'
 import './Anclaje.css'
 
@@ -76,20 +79,20 @@ const Anclaje = () => {
           <h2 className='title'>Accesorios de alta resistencia</h2>
           <p>Pueden ser utilizados en maniobras de izaje y sujecion en conjunto con cadenas, eslingas de fibra y cables de acero. Segun el requerimiento del usuario y advirtiendo los riesgos de uso.</p>
           <div>
-          <ol>
-            <li>Eslabon maestro</li>
-            <li>Eslabon con sub ensambles</li>
-            <li>Eslabon de conexion</li>
-            <li>Eslabon de conexion para eslingas</li>
-            <li>Grillete</li>
-            <li>Gancho ojo de fundicion</li>
-            <li>Acortacadenas con traba de seguridad</li>
-            <li>Acortacadenas</li>
-            <li>Gancho horquilla con traba de seguridad</li>
-            <li>Gancho ojo con traba de seguridad</li>
-            <li>Gancho ojo con cierre automatico</li>
-            <li>Gancho horquilla con cierre automatico</li>
-          </ol>
+            <ol>
+              <li>Eslabon maestro</li>
+              <li>Eslabon con sub ensambles</li>
+              <li>Eslabon de conexion</li>
+              <li>Eslabon de conexion para eslingas</li>
+              <li>Grillete</li>
+              <li>Gancho ojo de fundicion</li>
+              <li>Acortacadenas con traba de seguridad</li>
+              <li>Acortacadenas</li>
+              <li>Gancho horquilla con traba de seguridad</li>
+              <li>Gancho ojo con traba de seguridad</li>
+              <li>Gancho ojo con cierre automatico</li>
+              <li>Gancho horquilla con cierre automatico</li>
+            </ol>
             <img className='cable-especial' src={Accesorios} alt="Accesorios de alta resistencia" />
           </div>
           <h3>Para la configuracion del conjunto, considerar las siguientes cuestiones:</h3>
@@ -103,6 +106,30 @@ const Anclaje = () => {
           </ul>
           <div>
             <img className='cable-especial' src={Advertencias} alt="Advertencias" />
+          </div>
+        </section>
+        <section className='container'>
+          <h2 className='title'>Eslingas de fibra sintetica</h2>
+          <p>Las eslingas son confeccionadas con hilo de poliester de alta tenacidad tratados quimicamente, garantizando una elevada resistencia a la abrasion y previniendo el envejecimiento prematuro. Modelos disponibles: Planas doble ojal, Sin fin, y Tubular/Amorfa</p>
+          <ul>
+            <li>Coeficiente de seguridad 7:1</li>
+            <li>Eslingas planas: Norma EN1492-1 (Supera requerimientos de IRAM 5378)</li>
+            <li>Round Sling: Norma EN1492-2 (Supera requerimientos de IRAM 5378)</li>
+            <li>Etiqueta de identificacion (Fabrica, Norma, Capacidad, Trazabilidad)</li>
+            <li>En tipo planas los ojales cuentan con cobertor anti desgaste</li>
+          </ul>
+          <div>
+            <img className='cable-especial' src={Fibra1} alt="Factores de uso" />
+            <img className='cable-especial' src={Fibra2} alt="" />
+          </div>
+        </section>
+        <section className='container'>
+          <h2 className='title'>Cadenas de alta resistencia</h2>
+          <p>Ofrecemos dos lineas de cadena para izaje de carga, en G8° y G10° es que varian en su tension de carga a rotura, otorgando en consecuencia cargas de trabajo diferentes.</p>
+          <div>
+            {/* <img className='cable-especial' src={Cadenas1} alt="Tabla de cadenas" /> */}
+            {/* <img className='cable-especial' src={Cadenas2} alt="" /> */}
+            {/* <img className='cable-especial' src={Cadenas3} alt="" /> */}
           </div>
         </section>
       </main>
