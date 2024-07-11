@@ -17,7 +17,7 @@ function App() {
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/anclajesujecioncarga' element={<Anclaje />} />
-          <Route path='/seguridad' element={<Seguridad />} />
+          <Route path='/eppseguridadpersonal' element={<Seguridad />} />
         </Routes>
         <Footer/>
       </BrowserRouter>
@@ -29,7 +29,7 @@ function NavbarComponentWrapper() {
   const location = useLocation();
 
   // Aquí puedes agregar todas las rutas en las que no quieras mostrar el NavbarComponent
-  const hideNavbarRoutes = ['/anclajesujecioncarga', '/seguridad'];
+  const hideNavbarRoutes = ['/anclajesujecioncarga', '/eppseguridadpersonal'];
 
   return !hideNavbarRoutes.includes(location.pathname) ? <NavbarComponent /> : <Header/>;
 }

@@ -1,0 +1,17 @@
+.card{
+    width: 220px;
+    height: 320px;
+    border-color: #ffc107;
+}
+
+.card-title{
+    text-align: center;
+}
+
+.card-img-top{
+    width: 100% !important;
+}
+
+.link{
+    width: 100%;
+}
