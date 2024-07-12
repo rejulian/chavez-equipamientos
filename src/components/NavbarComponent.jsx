@@ -16,7 +16,10 @@ function NavbarComponent() {
                         <img src={logo} alt="Logo Chavez" style={{width:"110px"}}/>
                     </Nav>
                     <Nav.Link className='nav-link' as={Link} to='/'>Inicio</Nav.Link>
-                    <Nav.Link className='nav-link' as={Link} to='/anclajesujecioncarga'>Anclaje</Nav.Link>
+                    <NavDropdown id="basic-nav-dropdown" title="Productos">
+                        <NavDropdown.Item as={Link} to='/anclajesujecioncarga'>Anclaje, sujecion y carga</NavDropdown.Item>
+                        <NavDropdown.Item as={Link} to='/eppseguridadpersonal'>EPP Seguridad personal</NavDropdown.Item>
+                    </NavDropdown>
                 </Container>
             </Navbar>
         </>
