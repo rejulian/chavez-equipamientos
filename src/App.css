@@ -14,6 +14,8 @@
 .products-navbar .navbar-nav{
     align-items: start !important;
     gap: 10px !important;
+    justify-content: center;
+    width: 100%;
 }
 
 #header{
