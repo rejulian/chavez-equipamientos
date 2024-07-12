@@ -10,23 +10,11 @@ function NavbarProducts() {
                 <Navbar.Toggle aria-controls="products-navbar-nav" />
                 <Navbar.Collapse id="products-navbar-nav">
                     <Nav className="me-auto">
-                        <NavDropdown title="Categorias" id="products-nav-dropdown">
-                            <NavDropdown.Item href="#indumentaria">
-                                Indumentaria
-                            </NavDropdown.Item>
-                            <NavDropdown.Item href="#vial">
-                                Vial
-                            </NavDropdown.Item>
-                            <NavDropdown.Item href="#auditivo">
-                                Auditivo
-                            </NavDropdown.Item>
-                            <NavDropdown.Item href="#anteojos">
-                                Anteojos
-                            </NavDropdown.Item>
-                            <NavDropdown.Item href="#altura">
-                                Altura
-                            </NavDropdown.Item>
-                        </NavDropdown>
+                        <Nav.Link href='#indumentaria'>Indumentaria</Nav.Link>
+                        <Nav.Link href='#vial'>Vial</Nav.Link>
+                        <Nav.Link href='#auditivo'>Auditivo</Nav.Link>
+                        <Nav.Link href='#anteojos'>Anteojos</Nav.Link>
+                        <Nav.Link href='#altura'>Altura</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Container>
