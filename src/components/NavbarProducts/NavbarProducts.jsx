@@ -1,8 +1,7 @@
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import NavDropdown from 'react-bootstrap/NavDropdown';
-import logo from '../../assets/logo-chavez.png'
+
 function NavbarProducts() {
     return (
         <Navbar expand="lg" className="bg-body-tertiary products-navbar">
@@ -15,6 +14,7 @@ function NavbarProducts() {
                         <Nav.Link href='#auditivo'>Auditivo</Nav.Link>
                         <Nav.Link href='#anteojos'>Anteojos</Nav.Link>
                         <Nav.Link href='#altura'>Altura</Nav.Link>
+                        <Nav.Link href='#guantes'>Guantes</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Container>

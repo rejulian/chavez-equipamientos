@@ -5,8 +5,9 @@ import auditivo from '../../data/auditivo.json'
 import vial from '../../data/vial.json'
 import indumentaria from '../../data/indumentaria.json'
 import altura from '../../data/altura.json'
-import './Seguridad.css'
+import guantes from '../../data/guantes.json'
 import NavbarProducts from '../../components/NavbarProducts/NavbarProducts'
+import './Seguridad.css'
 
 const Seguridad = () => {
   return (
@@ -60,6 +61,16 @@ const Seguridad = () => {
           <div className='seguridad-container'>
             {
               altura.map(el => (
+                <CardComponent key={el.title} title={el.title} src={el.imageURL} />
+              ))
+            }
+          </div>
+        </section>
+        <section className='product-container' id='guantes'>
+          <h2>Guantes</h2>
+          <div className='seguridad-container'>
+            {
+              guantes.map(el => (
                 <CardComponent key={el.title} title={el.title} src={el.imageURL} />
               ))
             }
