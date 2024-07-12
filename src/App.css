@@ -11,6 +11,11 @@
     background-color: #ffc107 !important;
 }
 
+.products-navbar .navbar-nav{
+    align-items: start !important;
+    gap: 10px !important;
+}
+
 #header{
     text-align: center;
     background-color: #757575;
