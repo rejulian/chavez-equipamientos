@@ -10,16 +10,16 @@ function NavbarComponent() {
 
     return (
         <>
-            <Navbar bg="light" data-bs-theme="light">
+            <Navbar expand='lg' bg="light" data-bs-theme="light">
                 <Container>
-                    <Nav className="me-auto flex">
-                        <img src={logo} alt="Logo Chavez" style={{width:"110px"}}/>
-                    </Nav>
-                    <Nav.Link className='nav-link' as={Link} to='/'>Inicio</Nav.Link>
-                    <NavDropdown id="basic-nav-dropdown" title="Productos">
-                        <NavDropdown.Item as={Link} to='/anclajesujecioncarga'>Anclaje, sujecion y carga</NavDropdown.Item>
-                        <NavDropdown.Item as={Link} to='/eppseguridadpersonal'>EPP Seguridad personal</NavDropdown.Item>
-                    </NavDropdown>
+                    <img src={logo} alt="Logo Chavez" style={{width:"110px"}}/>
+                    <Navbar.Toggle aria-controls="products-navbar-nav" />
+                    <Navbar.Collapse>
+                        <Nav className='me-auto'>
+                            <Nav.Link as={Link} to='/anclajesujecioncarga'>Anclaje Sujecion y Carga</Nav.Link>
+                            <Nav.Link as={Link} to='/eppseguridadpersonal'>EPP Seguridad Personal</Nav.Link>
+                        </Nav>
+                    </Navbar.Collapse>
                 </Container>
             </Navbar>
         </>
