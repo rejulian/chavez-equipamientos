@@ -3,18 +3,40 @@
     flex-direction: column;
     align-items: center;
     margin-bottom: 30px;
+    /* row-gap: 30px; */
 }
 
 #seguridad h1{
     margin-bottom: 20px;
 }
 
-#seguridad-container{
+hr{
+    width: 100%;
+}
+
+.seguridad-container{
     max-width: 1000px;
     display: flex;
-    justify-content: center;
     align-items: center;
     row-gap: 20px;
     column-gap: 15px;
     flex-wrap: wrap;
+}
+
+.product-container{
+    margin: 20px 0;
+}
+
+.product-container h1{
+    text-align: initial;
+}
+
+@media(max-width: 1060px){
+    .seguridad-container{
+        justify-content: center;
+    }
+
+    .product-container h1{
+        text-align: center;
+    }
 }
