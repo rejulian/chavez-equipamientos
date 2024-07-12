@@ -15,6 +15,7 @@ function NavbarProducts() {
                         <Nav.Link href='#anteojos'>Anteojos</Nav.Link>
                         <Nav.Link href='#altura'>Altura</Nav.Link>
                         <Nav.Link href='#guantes'>Guantes</Nav.Link>
+                        <Nav.Link href='#calzado'>Calzado</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Container>

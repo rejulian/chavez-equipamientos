@@ -6,6 +6,7 @@ import vial from '../../data/vial.json'
 import indumentaria from '../../data/indumentaria.json'
 import altura from '../../data/altura.json'
 import guantes from '../../data/guantes.json'
+import calzado from '../../data/calzado.json'
 import NavbarProducts from '../../components/NavbarProducts/NavbarProducts'
 import './Seguridad.css'
 
@@ -71,6 +72,16 @@ const Seguridad = () => {
           <div className='seguridad-container'>
             {
               guantes.map(el => (
+                <CardComponent key={el.title} title={el.title} src={el.imageURL} />
+              ))
+            }
+          </div>
+        </section>
+        <section className='product-container' id='calzado'>
+          <h2>Calzado</h2>
+          <div className='seguridad-container'>
+            {
+              calzado.map(el => (
                 <CardComponent key={el.title} title={el.title} src={el.imageURL} />
               ))
             }
