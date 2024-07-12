@@ -4,10 +4,17 @@
     box-sizing: border-box;
 }
 
+.products-navbar{
+    position: sticky;
+    z-index: 10;
+    top: 0;
+    background-color: #ffc107 !important;
+}
+
 #header{
     text-align: center;
     background-color: #757575;
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
 }
 
 #header img{
