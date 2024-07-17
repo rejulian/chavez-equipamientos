@@ -17,6 +17,10 @@ import Advertencias from '../../assets/anclaje/advertencias.png'
 import Fibra1 from '../../assets/anclaje/fibra1.png'
 import Fibra2 from '../../assets/anclaje/fibra2.png'
 import Cadenas1 from '../../assets/anclaje/cadenas1.png'
+import Cadenas2 from '../../assets/anclaje/cadenas2.png'
+import Izaje1 from '../../assets/anclaje/izaje1.png'
+import Izaje2 from '../../assets/anclaje/izaje2.png'
+
 import './Anclaje.css'
 import { Link } from 'react-router-dom'
 
@@ -60,7 +64,7 @@ const Anclaje = () => {
         </section>
         <section className='container'>
           <h2 className='title'>Accesorios de uso petroleo</h2>
-          <div>
+          <div className='flex'>
             <img className='cable-especial' src={Petroleo1} alt="Cola de cadena para camiones petroleros" />
             <img className='cable-especial' src={Petroleo2} alt="Terminales para cable" />
             <img className='cable-especial' src={Petroleo3} alt="Eslingas TPR" />
@@ -116,18 +120,33 @@ const Anclaje = () => {
             <li>Etiqueta de identificacion (Fabrica, Norma, Capacidad, Trazabilidad)</li>
             <li>En tipo planas los ojales cuentan con cobertor anti desgaste</li>
           </ul>
-          <div>
-            <img className='cable-especial' src={Fibra1} alt="Factores de uso" />
-            <img className='cable-especial' src={Fibra2} alt="" />
+          <div className='flex'>
+            <img src={Fibra1} alt="Factores de uso" />
+            <img src={Fibra2} alt="" />
           </div>
         </section>
         <section className='container'>
           <h2 className='title'>Cadenas de alta resistencia</h2>
           <p>Ofrecemos dos lineas de cadena para izaje de carga, en G8° y G10° es que varian en su tension de carga a rotura, otorgando en consecuencia cargas de trabajo diferentes.</p>
+          <h5>Principales ventajas del Grado 10 sobre el Grado 8:</h5>
+          <ul>
+            <li>Aumento de la capacidad de carga del 25%</li>
+            <li>Reduccion del peso de la eslinga de hasta un 40%</li>
+            <li>Excelente relacion precio/rendimiento</li>
+            <li>Mayor resistencia al desgaste y vida util mas larga</li>
+            <li>Rango de temperatura -40° a 200°</li>
+          </ul>
+          <div className='flex'>
+            <img src={Cadenas1} alt="Tabla de cadenas" />
+            <img src={Cadenas2} alt="" />
+          </div>
+          <p><strong>Las cadenas certificadas deben tener identificacion de Grado y Lote. Depende la marca agregan como datos origen y el nombre de la empresa o logotipo de identificacion.</strong></p>
+        </section>
+        <section className='container'>
+          <h2 className='title'>Accesorios especificos para izaje</h2>
           <div>
-            {/* <img className='cable-especial' src={Cadenas1} alt="Tabla de cadenas" /> */}
-            {/* <img className='cable-especial' src={Cadenas2} alt="" /> */}
-            {/* <img className='cable-especial' src={Cadenas3} alt="" /> */}
+            <img className='cable-especial' src={Izaje1} alt="Accesorios para izaje" />
+            <img className='cable-especial' src={Izaje2} alt="Accesorios para izaje" />
           </div>
         </section>
       </main>

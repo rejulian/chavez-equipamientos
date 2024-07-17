@@ -44,12 +44,26 @@ h3{
     gap: 20px;
 }
 
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+}
+
+.flex img{
+    width: 500px;
+}
+
 @media(max-width: 700px){
     .cables-acero{
         width: 100px;
     }
 
     .cable-especial{
+        width: 100%;
+    }
+
+    .flex img{
         width: 100%;
     }
 }
