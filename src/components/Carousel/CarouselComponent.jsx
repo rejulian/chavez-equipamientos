@@ -12,7 +12,7 @@ function CarouselComponent() {
         </div>
         <Carousel.Caption>
           <h2>Elementos de proteccion</h2>
-          <Link className='btn btn-warning' to="/productos">Ver Productos</Link>
+          {/* <Link className='btn btn-warning' to="/productos">Ver Productos</Link> */}
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -22,7 +22,7 @@ function CarouselComponent() {
         </div>
         <Carousel.Caption>
           <h2>Soluciones a medida</h2>
-          <Link className='btn btn-warning' to="/productos">Ver Productos</Link>
+          {/* <Link className='btn btn-warning' to="/productos">Ver Productos</Link> */}
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>

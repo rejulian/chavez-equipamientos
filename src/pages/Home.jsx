@@ -26,7 +26,7 @@ const Home = () => {
                 <img src={Logo} alt="Logo de Chavez Equipamientos" className='logo' />
                 <h3>Apostamos al crecimiento</h3>
                 <p>Mantenemos nuestro compromiso en brindar a nuestros clientes la mejor atención, asesoramiento y capacitación  sobre  los elementos, insumos y productos que mejor se adapten al tipo de empresa, su actividad y sus necesidades que permitirán mantener el bienestar de todo su equipo de trabajo.</p>
-                <Link className='btn btn-warning' to='/productos'>Conocer mas!</Link>
+                {/* <Link className='btn btn-warning' to='/productos'>Conocer mas!</Link> */}
             </section>
             <section id='contacto'>
                 <div>
