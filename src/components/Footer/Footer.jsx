@@ -1,11 +1,11 @@
-import React from 'react'
+import React from "react";
 
 const Footer = () => {
   return (
     <footer>
-        <p>Contactanos. Cel: 03364581329 - 03364511862</p>
+      <p>Contactanos. Cel: 03364511862</p>
     </footer>
-  )
-}
+  );
+};
 
-export default Footer
+export default Footer;
